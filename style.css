@@ -42,8 +42,4 @@ p, li {
 .logo img {
     width: 25em;
 }
-.message {
-    display: inline-block;
-    float: right;
-    padding: 2vw;
-}
+

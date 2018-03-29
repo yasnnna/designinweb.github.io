@@ -9,23 +9,3 @@ myImage.onclick = function(){
     }
 }
 
-
-var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
-
-function setUserName() {
-  var myName = prompt('Jak na tebe volají?.');
-  localStorage.setItem('name', myName);
-  myHeading.textContent = 'Vítej, ' + myName;
-}
-
-if(!localStorage.getItem('name')) {
-  setUserName();
-} else {
-  var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Vítej, ' + storedName;
-}
-
-myButton.onclick = function() {
-  setUserName();
-}

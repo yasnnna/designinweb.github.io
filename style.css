@@ -1,0 +1,49 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+p, li {
+  font-size: 16px;  
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+#header {
+    border-bottom: solid 1px #ccc;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    padding: 0 5vw;
+    max-width:90%;
+}
+
+#main {
+    clear: both;
+    position: absolute;
+    padding: 150px 5vw;
+    max-width:90%;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+.logo img {
+    width: 25em;
+}
+.message {
+    display: inline-block;
+    float: right;
+    padding: 2vw;
+}
